@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Pera",
+      "lastName": "Peric",
+      "username": "Pera",
+      "password": "123",
+      "address": "Vidoja Jovanovica 22/a",
+      "phoneNumber": "063555333",
+      "gender": "M",
+      "admin": true
+    },
+    {
+      "id": 2,
+      "firstName": "Ana",
+      "lastName": "Anic",
+      "username": "Ana",
+      "password": "123",
+      "address": "Cegarska 33",
+      "phoneNumber": "063111222",
+      "gender": "F",
+      "admin": false
+    },
+    {
+      "id": 3,
+      "firstName": "Mika",
+      "lastName": "Mikic",
+      "username": "Mika",
+      "password": "123",
+      "address": "lole Ribara 11",
+      "phoneNumber": "063111999",
+      "gender": "M",
+      "admin": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Automobili",
+      "image": "https://www.carsome.my/news/wp-content/uploads/2022/10/Hyperion_XP1-3_4-studio.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Gradjevinske Masine",
+      "image": "https://www.gradnja.me/storage/posts/gradjevinske_masine_1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nautika",
+      "image": "https://www.antena3.ro/thumbs/big4/2021/07/02/cel-mai-mare-yaht-din-lume-construit-in-romania-714639.webp"
+    },
+    {
+      "id": 4,
+      "name": "Poljoprivredne Masine",
+      "image": "https://www.nedeljnik.rs/wp-content/uploads/2020/11/Madarske-poljoprivredne-masine.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Motocikli",
+      "image": "https://tagomotocentar.rs/wp-content/uploads/2022/11/viber_slika_2023-04-10_12-37-50-042.jpg"
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "title": "Mercedes Benz",
+      "description": "Malo vozen u dobrom stanju!",
+      "price": 10000,
+      "image": "https://img.sm360.ca/images/article/humberviewgroup-941/114236//410908_2021_mercedes-benz_gle-class1684437019338.jpg",
+      "likes": 0,
+      "reviews": 12,
+      "rating": [],
+      "categoryId": "1",
+      "userId": "2",
+      "views": 0
+    },
+    {
+      "id": 2,
+      "title": "Mercedes",
+      "description": "Malo vozen u dobrom stanju!",
+      "price": 10,
+      "image": "https://img.sm360.ca/images/article/humberviewgroup-941/114236//410908_2021_mercedes-benz_gle-class1684437019338.jpg",
+      "likes": 1,
+      "reviews": 14,
+      "rating": [
+        4,
+        5,
+        3
+      ],
+      "categoryId": 1,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "Benz",
+      "description": "Malo vozen u dobrom stanju!",
+      "price": 1000,
+      "image": "https://img.sm360.ca/images/article/humberviewgroup-941/114236//410908_2021_mercedes-benz_gle-class1684437019338.jpg",
+      "likes": 0,
+      "reviews": 13,
+      "rating": [],
+      "categoryId": "1",
+      "userId": "2",
+      "views": 0
+    },
+    {
+      "id": 4,
+      "title": "Grejder",
+      "description": "Havarisan, cena po dogovoru",
+      "price": 100,
+      "image": "https://www.polovniautomobili.com/portal/Zanimljivosti/2017_04/grejder/Grejder_u_radu.jpg",
+      "likes": 3,
+      "reviews": 11,
+      "rating": [
+        5,
+        4,
+        2
+      ],
+      "categoryId": 2,
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "title": "Amels 200",
+      "description": "Malo preso u dobrom stanju!",
+      "price": 10000,
+      "image": "https://laviedeluxe.rs/images/posts/296/1663783012-Amels-200-Yacht%2000.jpg",
+      "likes": 7,
+      "reviews": 20,
+      "rating": [
+        1,
+        5,
+        3
+      ],
+      "categoryId": 3,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "title": "John Deere LV 4200 4WD",
+      "description": "John deere LV 4200 4 WD hidro!! Na ime kupca kao iz fabrike je, kupljen od prvog vlasnika u swajcarskoj! Poseduje kasiku, razbcivac! Za vise informacija pozvati!",
+      "price": 16500,
+      "image": "https://tym.world/media/024j4kma/6r_featured_optimized.png",
+      "likes": 100,
+      "reviews": 220,
+      "rating": [
+        1,
+        5,
+        3
+      ],
+      "categoryId": 4,
+      "userId": 2
+    },
+    {
+      "id": 7,
+      "title": "Ducati Multistrada V4 Grand Tour",
+      "description": "Nova Multistrada V4 S Grand Tour model za 2024.Već sada možete poručiti ovaj novi model Multistrade V4 S u specijalnoj boji koja stiže sa bogatim paketom opreme:Prednji radar za adaptivni tempomat",
+      "price": 27500,
+      "image": "https://motomagazin.rs/files/news/Image/2024-ducati-multistrada-v4-s-grand-tour-2.jpg",
+      "likes": 65,
+      "reviews": 521,
+      "rating": [
+        1,
+        5,
+        3
+      ],
+      "categoryId": 5,
+      "userId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "text": "Ovaj oglas je sjajan!",
+      "adId": 1,
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "text": "Imam nekoliko pitanja o proizvodu.",
+      "adId": 1,
+      "userId": 3
+    },
+    {
+      "id": 3,
+      "text": "Cena je malo visoka.",
+      "adId": 1,
+      "userId": 1
+    },
+    {
+      "text": "tako jeeeeeeee!",
+      "adId": "1",
+      "userId": "2",
+      "id": 4
+    },
+    {
+      "text": "1111111111",
+      "adId": "1",
+      "userId": "2",
+      "id": 5
+    }
+  ]
+}

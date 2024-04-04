@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"> 
+    <title>ADS</title>
+</head> 
+<body>
+<h1>Oglasi</h1>
+
+
+<table id="table" style="border: 1px solid blue;"></table>
+
+
+<label>Kategorije:</label>
+<select id="select">
+</select><hr>
+<select id="selectSort">
+    <option value="label">Poredjati Po:</option>
+    <option value="price">Ceni</option>
+    <option value="likes">Lajkovima</option>
+    <option value="reviews">Pregledima</option>
+    <option value="ratingu">Popularnosti</option>
+</select><hr>
+<select id="selectWay">
+    <option value="Opadajuci/Rastuci">Opadajuci/Rastuci</option>
+    <option value="DESC">Opadajuci</option>
+    <option value="ASC">Rastuci</option>
+    
+</select><hr>
+
+
+<label>Cena Od: </label> <input id="minPrice" type="number">
+<label>Cena Do: </label> <input id="maxPrice" type="number"><br>
+
+<div id="filter" style="display: flex;">
+<button id="filterAds">Filtritaj</button>
+
+</div>
+
+
+<div id="displayFiltered"></div>
+
+
+    <script src="./ads.js"></script>
+</body>
+</html>

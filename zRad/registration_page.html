@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_page</title>
+</head>
+<body>
+    
+        <label >Ime: </label>  <br>
+        <input id="input-name" ><br>
+
+        <label >Prezime: </label>  <br>
+        <input id="input-surname" ><br>
+
+        <label >Broj Telefona: </label>  <br>
+        <input type="number" id="input-phoneNumber" ><br>
+
+        <label >Adresa: </label>  <br>
+        <input id="input-adresa" ><br>
+
+        <label >Korisnicko ime:</label>  <br>
+        <input type="email" id="input-username" ><br>
+        
+        <label>Sifra:</label><br>
+        <input type="password" id="input-password" ><br>
+        
+        <label>Potvrdi šifru:</label><br>                                     
+        <input type="password" id="input-confirmPassword" ><br><hr>
+
+        <label>Pol:</label><br>
+        <input type="radio" id="male" name="gender" value="M" >
+        <label>Muski</label>
+        <input type="radio" id="female" name="gender" value="F" >
+        <label>Zenski</label>
+        
+        <input type="checkbox" id="admin">
+        <label>Admin</label><br><hr>
+
+        <button id="reg" onclick="registerUser()">Registruj se</button>
+ 
+    <script src="./registration_page.js"></script>
+</body>
+</html> 
+

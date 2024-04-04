@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ad_add</title>
+</head>
+<body>
+    
+        <label>Naslov Oglasa:</label>
+        <input id="title" type="text" >
+    
+        <label>Opis Oglasa:</label>
+        <textarea id="description" name="description"></textarea>
+    
+        <label>Kategorija:</label>
+        <!-- <select id="category" name="category">
+            
+            <option value="1">Automobili</option>
+            <option value="2">Gradjevinske Masine</option>
+            <option value="3">Nautika</option>
+            <option value="4">Poljoprivredne Masine</option>
+            <option value="5">Motocikli</option>
+
+        </select><hr> -->
+        <select id="categorySelect"></select>
+
+        <label>Cena: </label>
+        <input id="price" type="number">
+
+        <label>Unesite URL Slike</label>
+        <input id="addImage" type="url">
+        
+        <button id="addAd">Dodaj Oglas</button>
+
+    <script src="./ad_add.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>ad_edit</title>
+</head>
+<body>
+
+
+    <label>Izmen: Naslov Oglasa:</label>
+    <input id="title" type="text" >
+
+    <label>Izmeni: Opis Oglasa:</label>
+    <textarea id="description" name="description"></textarea>
+
+    <label>Kategorija:</label>
+    <!-- <select id="select-category" name="category">
+        
+        <option value="1">Automobili</option>
+        <option value="2">Gradjevinske Masine</option>
+        <option value="3">Nautika</option>
+        <option value="4">Poljoprivredne Masine</option>
+        <option value="5">Motocikli</option>
+
+    </select><hr> -->
+    <select id="categorySelect"></select>
+    <label>Promeni: Cenu: </label>
+    <input id="price" >
+
+    <label>Zameni Sliku</label>
+    <input id="addImage" type="url">
+    
+    <button id="editAd">Izmeni Oglas</button>
+
+
+
+<script src="./ad_edit.js"></script>
+</body>
+</html>
